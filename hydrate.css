@@ -1,0 +1,96 @@
+body {
+	padding: 20px 15px 20px 15px;
+    background-color: #faf3f0;
+}
+
+h1 {
+    font-size: 60px;
+	font-family: Eras ITC;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: Eras ITC;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: Eras ITC;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: Eras ITC;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: Eras ITC;
+}
+
+p {
+    font-size: 10px;
+    font-family: Eras ITC;
+}
+
+.floatr {
+    float: right;
+}
+
+.floatl {
+    float: left;
+}
+
+.center {
+    margin: auto;
+    width: 310px;
+  }
+
+.inputheight {
+    height: 30px;
+}
+
+.ebutton {
+    font-family: Eras ITC;
+    font-weight: bold;
+    float: right;
+    background-color: bisque;
+}
+
+.awater {
+    float: right;
+    padding: 100px;
+}
+
+.centtext {
+    text-align: center;
+}
+
+.maindiv {
+    background-color: #a2c7e5;
+    padding: 1px 20px 30px 20px;
+    margin: auto;
+    width: 310px;
+}
+
+.div1 {
+    float: right;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.div2 {
+    margin: auto;
+    width: 300px;
+}
+
+.div3 {
+    float: left;
+    width: 300px;
+    padding-left: 20px;
+    clear: both;
+}
+
+.bigdiv {
+    column-count: 3;
+}
