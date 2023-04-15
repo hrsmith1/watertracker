@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="witdh=device-width, initial-scale=1">
+        <title>Log In</title>
+        <link rel="stylesheet" type="text/css" href="hydrate.css">
+    </head>
+
+    <body>
+        <img src="{{ url_for('static', filename='logo.png') }}" width="388px" height="140px" alt="Hydr(infinity sign)"/>
+        <form method="post" action="">
+            <label for="username">USERNAME:</label>
+            <input type="text" name="username" required><br>
+
+            <label for="password">PASSWORD:</label>
+            <input type="password" name="password" required><br>
+
+            <input type="submit" value="LOGIN">
+        </form>
+        <p>
+            NEW HERE?
+            <a href="signup.html">CREATE AN ACCOUNT</a>
+        </p>
+    </body>
+</html>
